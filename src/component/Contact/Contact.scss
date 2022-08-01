@@ -1,0 +1,32 @@
+.bg-img1 {
+  margin-top: 5.9%;
+  background-image: url(https://hotro.hasaki.vn/css/images/graphics/bg_support.jpg);
+  width: auto;
+  height: 220px;
+  color: white;
+}
+
+.form-m {
+    
+  textarea {
+    border: 1px solid #e6e6e6;
+    font-size: 14px;
+  }
+  input {
+    font-size: 14px;
+    border: 1px solid #e6e6e6;
+    height: 40px;
+  }
+  .btn {
+    background: #507fcf;
+    color: white;
+    min-width: 20%;
+    border-radius: 23px;
+    height: 40px;
+  }
+  .btn:hover {
+    background: #94b7f3;
+    border: none;
+    color: #507fcf;
+  }
+}

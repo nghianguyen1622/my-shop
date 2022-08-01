@@ -1,0 +1,122 @@
+.cart-items {
+  height: auto;
+  padding: 40px 20% 0px 10px;
+  .card {
+    width: 60%;
+    cursor: pointer;
+
+    box-shadow: 5px 5px 10px rgba(230, 226, 226, 0.5);
+  }
+  .cart-details {
+    width: 70%;
+    // margin-left: -10%;
+    .tenSP {
+      margin-top: -40%;
+    }
+  }
+}
+
+.btn {
+  background: #507fcf;
+  color: white;
+  min-width: 50px;
+  border-radius: 23px;
+  height: 40px;
+}
+.cart-items .cart-total {
+  width: 30%;
+  margin-top: 30px;
+  margin-left: 50px;
+  height: 130px;
+}
+.cart-list {
+  background: white;
+  margin-top: 30px;
+}
+.cart-items .img {
+  width: 150px;
+  height: 150px;
+}
+.cart-items img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.cart-items .cart-details h3 {
+  float: right;
+  font-size: 20px;
+  font-weight: 500;
+  //   margin-top: -20px;
+  //  padding:  0px 0px 1px;
+}
+
+.cart-items .cart-details h4 {
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 70px;
+  color: grey;
+}
+.cart-items h4 span {
+  color: #e94560;
+  margin-left: 20px;
+  font-weight: 500;
+}
+.removeCart {
+  background: none;
+  font-size: 18px;
+  text-align: right;
+  margin-right: 10px;
+  margin-top: -17%;
+  cursor: pointer;
+}
+.cartControl {
+  float: right;
+  padding: 0;
+}
+.cartControl button {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+  border-radius: 25px;
+  font-size: 15px;
+}
+.cartControl button:hover {
+color:white;
+background:#507fcf;
+border:none;
+}
+.incCart {
+  background: none;
+  border: 1px solid rgb(3 0 71 / 9%);
+  /* color: #e94560; */
+}
+.desCart {
+  background: none;
+  border: 1px solid rgb(3 0 71 / 9%);
+}
+.cart-total h4 {
+  font-size: 15px;
+  font-weight: 400;
+}
+.cart-total h3 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #e94560;
+}
+.cart-total h2 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgb(3 0 71 / 9%);
+  padding-bottom: 10px;
+  color: #e94560;
+}
+.no-items {
+  color: #e94560;
+  font-size: 18px;
+  margin-top: 30px;
+  height: 130px;
+}
+
+.giatien {
+  margin-left: -200px;
+}

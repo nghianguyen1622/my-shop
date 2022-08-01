@@ -1,0 +1,70 @@
+
+.ct-mg{
+  margin-top: 6rem!important;
+}
+.sp {
+  // border :1px soild #507fcf;
+  height: 80%;
+
+  .card {
+    // transition: all 0.5s ease;
+    cursor: pointer;
+    border: none;
+
+
+
+
+    .card-body{
+      font-size: 16px;
+      
+    .btn{
+      background:#507fcf;
+      color: white;
+      min-width: 20%;
+      border-radius: 23px;
+    height: 40px;
+  
+
+
+      
+    }
+    // .btn:hover{
+    //   background:#94b7f3;
+    // }
+    }
+
+
+    
+  }
+
+  .btn-quick-button {
+    position: absolute;
+    margin-top: 50%;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  
+  .card:hover .btn-quick-button {
+    opacity: 1;
+    visibility: visible;
+  }
+  .card:hover .card-img-top{
+    transform: rotate(-10deg) scale(1.3);
+     opacity:0.5;
+  }
+
+  
+
+  // .card:hover {
+  //   transform: scale(1.0);
+  //   box-shadow: 5px 5px 10px #94b7f3;
+  //   border-radius: 25px;
+  // }
+}
+
+
+
+
+
