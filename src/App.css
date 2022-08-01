@@ -9,13 +9,11 @@
 .number {
   position: absolute;
   width: 18px;
-  height: 18px;
   border-radius: 50%;
   line-height: 20px;
   color: #fff;
   font-size: 10px;
   background: #ee4266;
-  right: 7.5%;
   top: 26%;
 
   text-align: center;
